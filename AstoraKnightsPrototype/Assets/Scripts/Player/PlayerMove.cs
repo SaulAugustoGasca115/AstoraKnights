@@ -11,9 +11,9 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] CollisionFlags collisionFlags;
     [SerializeField] float moveSpeed = 10.0f;
     [SerializeField] bool bCanMove = false;
-    [SerializeField] bool finishedMoveemnt = true;
+    public bool finishedMoveemnt = true;
 
-    [SerializeField] Vector3 targetPosition;
+    public Vector3 targetPosition;
     [SerializeField] Vector3 playerMovement;
 
     [SerializeField] float playerToPointDistance;
