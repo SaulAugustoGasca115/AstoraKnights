@@ -1598,6 +1598,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1696,6 +1697,20 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646a17e6d4cdea44d8520497eeb22f42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 3d4b0eef58bd1c84a93390e1608879cf, type: 3}
+  mousePoint: {fileID: 4128655334320804530, guid: 80931093d0a386a4e8b1dd3caeee6972, type: 3}
 --- !u!1 &1004875912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,9 +3582,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackKnight
       objectReference: {fileID: 0}
-    - target: {fileID: 5790715205713336771, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 1680258258}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 1546160845}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[2]
+      value: 
+      objectReference: {fileID: 498440164}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[3]
+      value: 
+      objectReference: {fileID: 409246378}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[4]
+      value: 
+      objectReference: {fileID: 1933190163}
+    - target: {fileID: 5790715207260691070, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}
+      propertyPath: fillWaitImage.Array.data[5]
+      value: 
+      objectReference: {fileID: 1894552209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5534afcd2a01e8409c094242b9f9d13, type: 3}

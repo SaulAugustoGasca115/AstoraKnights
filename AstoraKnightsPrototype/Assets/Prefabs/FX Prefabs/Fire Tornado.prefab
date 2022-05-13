@@ -9731,6 +9731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4290743006378474}
+  - component: {fileID: 4281171704732506739}
   m_Layer: 0
   m_Name: Fire Tornado
   m_TagString: Untagged
@@ -9760,6 +9761,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4281171704732506739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498625563617044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556363b7ce5ac0946a96bc8d2d935160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 128
+  radius: 0.5
+  damageCount: 20
+  fireExplosion: {fileID: 1295225198179992, guid: 6890533e0b7794915a8cbfad0a40702c, type: 3}
+  speed: 5
 --- !u!1 &1535840968136520
 GameObject:
   m_ObjectHideFlags: 0
